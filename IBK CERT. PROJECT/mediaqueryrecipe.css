@@ -1,0 +1,803 @@
+/*media query for small mobile screen*/
+
+@media only screen and (min-width: 1px) and (max-width: 320px){
+    .head h1 {
+        margin: 5px 0px;
+        font-size: 15px;
+        height: 15px;
+    }
+    
+    img {
+        width: 10px;
+        height: 13px;
+    }
+
+    nav {
+        padding: 1px 2%;
+        height: 15px;
+        margin-left: 1px;
+    }
+    nav ul {
+        margin-left: 15px;
+    }
+    nav ul li {
+        margin: 10px .1px;
+        font-size: 5px;
+    }
+    .sub-menu-wrap {
+        top: 220%;
+        left: 55%;
+        width: 105px;
+        margin-right: 50px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 150px;
+    }
+    .sub-menu {
+        padding: 5px;
+        margin: 5px;
+    }
+    .owner-info h4 {
+        font-size: 7px;
+    }
+    .owner-info img {
+        width: 10px;
+        margin-right: 8px;
+    }
+    .sub-menu hr {
+        margin: 10px 0 5px 0;
+    }
+    .sub-menu-link {
+        margin: 5px 0;
+    }
+    .sub-menu-link p {
+        font-size: 6px;
+    }
+    
+    .sub-menu-link img {
+        width: 5px;
+        height: 2px;
+        padding: 1px;
+        margin-right: 2px;
+    }
+
+    .recipesearch {
+        margin: 5px 0px;
+    }
+    .recipesearch input {
+        width: 130px;
+        height: 12px;
+        font-size: 10px;
+    }
+    .recipesearch button {
+        width: 40px;
+        height: 15px;
+        font-size: 10px;
+    }
+    
+    .newdatabase {
+        margin-top: 150px;
+    }
+    .newdatabase h2 {
+        font-size: smaller;
+        margin-bottom: 5px;
+    }
+    .newdatabase label {
+        font-size: 10px;
+        margin-right: 3px;
+    }
+    .newdatabase input {
+        height: 13px;
+        width: 110px;
+        font-size: 10px;
+    }
+    .newdatabase input:hover{
+        width: 130px;
+    }
+    
+    .newinput {
+        margin-bottom: 2px;
+    }
+    
+    .newtext {
+        margin-bottom: 2px;
+    }
+    .newtext textarea {
+        width: 152px;
+        height: 120px;
+        font-size: 10px;
+    }
+    .newtext textarea:hover {
+        width: 160px;
+    }
+    
+    .newinput select {
+        width: 110px;
+        height: 15px;
+        font-size: 10px;
+    }
+    
+    .newdatabase button {
+        font-size: 10px;
+        width: 50px;
+}}
+
+/*media query for medium mobile screen*/
+
+@media only screen and (min-width: 321px) and (max-width: 420px){
+    .head h1 {
+        margin: 7px 0px;
+        font-size: 21px;
+        height: 21px;
+    }
+    
+    img {
+        width: 19px;
+        height: 18px;
+    }
+
+    nav {
+        padding: 2px 3%;
+        height: 13px;
+    }
+    nav ul {
+        width: 96%;
+    }
+    nav ul li {
+        margin: 10px .2px;
+        font-size: 7px;
+    }
+    .sub-menu-wrap {
+        top: 200%;
+        left: 50%;
+        width: 150px;
+        margin-right: 70px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 180px;
+    }
+    .sub-menu {
+        padding: 5px;
+        margin: 7px;
+    }
+    .owner-info h4 {
+        font-size: 9px;
+    }
+    .owner-info img {
+        width: 20px;
+        margin-right: 6px;
+    }
+    .sub-menu hr {
+        margin: 10px 0 5px 0;
+    }
+    .sub-menu-link {
+        margin: 5px 0;
+    }
+    .sub-menu-link p {
+        font-size: 7px;
+    }
+
+    .sub-menu-link img {
+        width: 12px;
+        height: 7px;
+        padding: 3px;
+    }
+    
+    .recipesearch {
+        margin: 4px 0px;
+    }
+    .recipesearch input {
+        width: 200px;
+        height: 14px;
+        font-size: 12px;
+    }
+    .recipesearch button {
+        width: 45px;
+        height: 18px;
+        font-size: 12px;
+    }
+    
+    .newdatabase {
+        margin-top: 200px;
+    }
+    
+    .newdatabase h2 {
+        font-size: large;
+    }
+    
+    .newdatabase label {
+        font-size: 12px;
+    }
+    
+    .newdatabase input {
+        height: 14px;
+        width: 140px;
+        font-size: 12px;
+    }
+    
+    .newdatabase input:hover{
+        width: 160px;
+    }
+    
+    .newinput {
+        margin-bottom: 4px;
+    }
+    
+    .newtext {
+        margin-bottom: 4px;
+    }
+    
+    .newtext textarea {
+        width: 200px;
+        height: 120px;
+        font-size: 12px;
+    }
+    
+    .newtext textarea:hover {
+        width: 210px;
+    }
+    
+    .newinput select {
+        width: 140px;
+        height: 18px;
+        font-size: 12px;
+    }
+    
+    .newdatabase button {
+        font-size: 12px;
+        width: 60px;
+}}
+
+/*media query for large mobile screen*/
+
+@media only screen and (min-width: 421px) and (max-width: 520px){
+    .head h1 {
+        margin: 7px 0px;
+        font-size: 25px;
+        height: 25px;
+    }
+    
+    img {
+        width: 22px;
+        height: 21px;
+    }
+
+    nav {
+        padding: 3px 4%;
+        height: 15px;
+    }
+    nav ul {
+        width: 100%;
+        margin-right: 25px;
+    }
+    nav ul li {
+        margin: .9px .2px;
+        font-size: 8px;
+    }
+    .sub-menu-wrap {
+        top: 210%;
+        left: 50%;
+        width: 195px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 200px;
+    }
+    .sub-menu {
+        margin: 12px;
+    }
+    .owner-info h4 {
+        font-size: 10px;
+    }
+    .owner-info img {
+        width: 30px;
+        margin-right: 7px;
+    }
+    .sub-menu hr {
+        margin: 12px 0 7px 0;
+    }
+    .sub-menu-link {
+        margin: 7px 0;
+    }
+    .sub-menu-link p {
+        font-size: 8px;
+    }
+    .sub-menu-link img {
+        width: 15px;
+        height: 8px;
+        padding: 3px;
+    }
+    
+    .recipesearch {
+        margin: 9px 0px;
+    }
+    .recipesearch input {
+        width: 210px;
+        height: 15px;
+        font-size: 15px;
+    }
+    .recipesearch button {
+        width: 50px;
+        height: 19px;
+        font-size: 13px;
+    }
+    
+    .newdatabase {
+        margin-top: 210px;
+    }
+    
+    .newdatabase h2 {
+        font-size: 23px;
+        margin-bottom: 7px;
+    }
+    
+    .newdatabase label {
+        font-size: 15px;
+        margin-right: 3px;
+    }
+    
+    .newdatabase input {
+        height: 20px;
+        width: 160px;
+        font-size: 15px;
+    }
+    
+    .newdatabase input:hover{
+        width: 180px;
+    }
+    
+    .newinput {
+        margin-bottom: 8px;
+    }
+    
+    .newtext {
+        margin-bottom: 8px;
+    }
+    
+    .newtext textarea {
+        width: 240px;
+        height: 140px;
+        font-size: 15px;
+    }
+    
+    .newtext textarea:hover {
+        width: 260px;
+    }
+    
+    .newinput select {
+        width: 160px;
+        height: 20px;
+        font-size: 15px;
+    }
+    
+    .newdatabase button {
+        font-size: 15px;
+        width: 70px;
+}}
+
+/*media query for small tablet screen*/
+
+@media only screen and (min-width: 521px) and (max-width: 620px){
+    .head h1 {
+        font-size: 30px;
+        height: 30px;
+    }
+    
+    img {
+        width: 27px;
+        height: 25px;
+    }
+
+    nav {
+        padding: 4px 5%;
+        height: 16px;
+    }
+    nav ul {
+        margin-left: 18px;
+    }
+    nav ul li {
+        margin: .9px .5px;
+        font-size: 9px;
+    }
+    
+    .sub-menu-wrap {
+        top: 230%;
+        left: 50%;
+        width: 235px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 230px;
+    }
+    .sub-menu {
+        margin: 12px;
+    }
+    
+    .owner-info h4 {
+        font-size: 11px;
+    }
+    .owner-info img {
+        width: 40px;
+        margin-right: 8px;
+    }
+    .sub-menu hr {
+        margin: 13px 0 8px 0;
+    }
+    .sub-menu-link {
+        margin: 8px 0;
+    }
+    .sub-menu-link p {
+        font-size: 9px;
+    }
+    .sub-menu-link img {
+        width: 16px;
+        height: 9px;
+        padding: 4px;
+    }
+    
+    .recipesearch {
+        margin: 10px 0px;
+    }
+    .recipesearch input {
+        width: 250px;
+        height: 18px;
+        font-size: 15px;
+    }
+    .recipesearch button {
+        width: 50px;
+        height: 22px;
+        font-size: 13px;
+    }
+    
+    .newdatabase {
+        margin-top: 280px;
+    }
+    
+    .newdatabase h2 {
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+    
+    .newdatabase label {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .newdatabase input {
+        height: 22px;
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .newdatabase input:hover{
+        width: 190px;
+    }
+    
+    .newinput {
+        margin-bottom: 12px;
+    }
+    
+    .newtext {
+        margin-bottom: 12px;
+    }
+    
+    .newtext textarea {
+        width: 250px;
+        height: 140px;
+        font-size: 15px;
+    }
+    
+    .newtext textarea:hover {
+        width: 270px;
+    }
+    
+    .newinput select {
+        width: 180px;
+        height: 20px;
+        font-size: 15px;
+    }
+    
+    .newdatabase button {
+        font-size: 18px;
+        width: 80px;
+}}
+
+/*media query for medium tablet screen*/
+
+@media only screen and (min-width: 621px) and (max-width: 820px){
+    .head h1 {
+        font-size: 40px;
+        height: 40px;
+    }
+    
+    img {
+        width: 35px;
+        height: 32px;
+    }
+
+    nav {
+        padding: 5px 6%;
+        height: 18px;
+    }
+    nav ul {
+        margin-left: 25px;
+    }
+    nav ul li {
+        margin: .9px 6px;
+        font-size: 10px;
+    }
+    .sub-menu-wrap {
+        top: 220%;
+        left: 52%;
+        width: 260px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 300px;
+    }
+    .sub-menu {
+        margin: 13px;
+    }
+    .owner-info h4 {
+        font-size: 12px;
+    }
+    .owner-info img {
+        width: 50px;
+        margin-right: 10px;
+    }
+    .sub-menu hr {
+        margin: 14px 0 9px 0;
+    }
+    .sub-menu-link {
+        margin: 10px 0;
+    }
+    .sub-menu-link p {
+        font-size: 10px;
+    }
+    .sub-menu-link img {
+        width: 17px;
+        height: 10px;
+        padding: 5px;
+    }
+    
+    .recipesearch {
+        margin: 10px 0px;
+    }
+    .recipesearch input {
+        width: 280px;
+        height: 18px;
+        font-size: 15px;
+    }
+    .recipesearch button {
+        width: 50px;
+        height: 22px;
+        font-size: 13px;
+    }
+    
+    .newdatabase {
+        margin-top: 380px;
+    }
+    
+    .newdatabase h2 {
+        font-size: 28px;
+        margin-bottom: 11px;
+    }
+    
+    .newdatabase label {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .newdatabase input {
+        height: 23px;
+        width: 180px;
+        font-size: 15px;
+    }
+    
+    .newdatabase input:hover{
+        width: 190px;
+    }
+    
+    .newinput {
+        margin-bottom: 15px;
+    }
+    
+    .newtext {
+        margin-bottom: 15px;
+    }
+    
+    .newtext textarea {
+        width: 250px;
+        height: 140px;
+        font-size: 15px;
+    }
+    
+    .newtext textarea:hover {
+        width: 270px;
+    }
+    
+    .newinput select {
+        width: 180px;
+        height: 20px;
+        font-size: 15px;
+    }
+    
+    .newdatabase button {
+        font-size: 18px;
+        width: 80px;
+}}
+
+/*media query for large tablet screen*/
+
+@media only screen and (min-width: 821px) and (max-width: 1020px){
+    .head h1 {
+        font-size: 50px;
+        height: 50px;
+    }
+    
+    img {
+        width: 45px;
+        height: 43px;
+    }
+    
+    nav {
+        padding: 6px 7%;
+        height: 20px;
+    }
+    nav ul {
+        margin-left: 25px;
+    }
+    nav ul li {
+        margin: .9px 6px;
+        font-size: 12px;
+    }
+    .sub-menu-wrap {
+        top: 220%;
+        left: 59%;
+        width: 280px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 400px;
+    }
+    .sub-menu {
+        margin: 15px;
+    }
+    .owner-info h4 {
+        font-size: 14px;
+    }
+    .owner-info img {
+        margin-right: 15px;
+    }
+    
+    .sub-menu-link {
+        margin: 12px 0;
+    }
+    .sub-menu-link p {
+        font-size: 12px;
+    }
+    .sub-menu-link img {
+        width: 19px;
+        height: 12px;
+        padding: 7px;
+    }
+
+    .recipesearch {
+        margin: 10px 0px;
+    }
+    .recipesearch input {
+        width: 280px;
+        height: 18px;
+        font-size: 15px;
+    }
+    .recipesearch button {
+        width: 50px;
+        height: 22px;
+        font-size: 13px;
+    }
+    
+    .newdatabase {
+        margin-top: 360px;
+    }
+    
+    .newdatabase h2 {
+        font-size: 28px;
+        margin-bottom: 11px;
+    }
+    
+    .newdatabase label {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .newinput {
+        margin-bottom: 15px;
+    }
+    
+    .newtext {
+        margin-bottom: 15px;
+    }
+    
+    .newdatabase button {
+        font-size: 18px;
+        width: 80px;
+}}
+
+/*media query for laptop screen*/
+
+@media only screen and (min-width: 1021px) and (max-width: 1320px){
+    .head h1 {
+        font-size: 60px;
+        height: 60px;
+    }
+    
+    img {
+        width: 55px;
+        height: 53px;
+    }
+
+    nav {
+        padding: 6px 7%;
+        height: 20px;
+    }
+    nav ul {
+        margin-left: 28px;
+    }
+    nav ul li {
+        margin: 1px 7px;
+        font-size: 14px;
+    }
+
+    .sub-menu-wrap {
+        top: 155%;
+        right: 2%;
+        width: 330px;
+        max-height: 0px;
+    }
+    .sub-menu-wrap.open-menu {
+        max-height: 450px;
+    }
+
+    
+    .recipesearch {
+        margin: 10px 0px;
+    }
+    .recipesearch input {
+        width: 300px;
+        height: 18px;
+        font-size: 15px;
+    }
+    .recipesearch button {
+        width: 50px;
+        height: 22px;
+        font-size: 13px;
+    }
+    
+    .newdatabase {
+        margin-top: 220px;
+    }
+    
+    .newdatabase h2 {
+        font-size: 28px;
+        margin-bottom: 11px;
+    }
+    
+    .newdatabase label {
+        font-size: 18px;
+        margin-right: 3px;
+    }
+    
+    .newinput {
+        margin-bottom: 15px;
+    }
+    
+    .newtext {
+        margin-bottom: 15px;
+    }
+    
+    .newdatabase button {
+        font-size: 18px;
+        width: 80px;
+}}
+
